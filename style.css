@@ -1,11 +1,9 @@
-/* ===== GLOBAL FONT & BODY ===== */
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f8f8f8;
   color: #222;
 }
 
-/* Bebas Neue for all headings */
 h1,
 h2,
 h3,
@@ -16,8 +14,6 @@ h6 {
   letter-spacing: 1px;
 }
 
-/* ===== REUSABLE COLOR ===== */
-/* Orange is our brand accent colour */
 .text-orange {
   color: #ff4500;
 }
@@ -36,12 +32,10 @@ h6 {
   color: #fff;
 }
 
-/* ===== NAVBAR ===== */
-/* The logo uses Bebas Neue + orange */
 .navbar-toggler {
   border-color: #ff4500;
-  background-color:  #ff4500;
-} 
+  background-color: tomato;
+}
 .brand-logo {
   font-family: "Bebas Neue", sans-serif;
   font-size: 1.8rem;
@@ -50,25 +44,20 @@ h6 {
   text-decoration: none;
 }
 
-/* Nav links turn orange on hover */
 .navbar .nav-link:hover {
   color: #ff4500 !important;
 }
 
-/* ===== HERO SECTION ===== */
-/* Big background image with a dark overlay */
 .hero-section {
   background:
     linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1400&q=80")
       center / cover no-repeat;
-  min-height: 90vh; /* Takes up most of the screen */
+  min-height: 90vh;
   display: flex;
-  align-items: center; /* Vertically centre the text */
+  align-items: center;
 }
 
-/* ===== SECTION LABELS & TITLES ===== */
-/* Small red label above each section title */
 .section-label {
   color: #ff4500;
   font-size: 0.85rem;
@@ -82,7 +71,6 @@ h6 {
   margin-bottom: 6px;
 }
 
-/* Short orange underline beneath titles */
 .orange-line {
   width: 50px;
   height: 3px;
@@ -91,10 +79,9 @@ h6 {
   margin-bottom: 20px;
 }
 
-/* ===== PROGRAM CARDS ===== */
 .program-card {
   background: #fff;
-  border-top: 4px solid #ff4500; /* Orange top border */
+  border-top: 4px solid #ff4500;
   padding: 28px 22px;
   border-radius: 4px;
   text-align: center;
@@ -117,7 +104,6 @@ h6 {
   margin: 0;
 }
 
-/* ===== PRICING CARDS ===== */
 .price-card {
   background: #fff;
   border: 2px solid #eee;
@@ -131,7 +117,6 @@ h6 {
   transform: translateY(-6px);
 }
 
-/* Popular card gets an orange border */
 .popular-card {
   border-color: #ff4500;
 }
@@ -179,7 +164,6 @@ h6 {
   margin-right: 8px;
 }
 
-/* ===== DARK FORM INPUTS (Contact section) ===== */
 .dark-input {
   background-color: #1e1e1e;
   border: 1px solid #333;
@@ -196,7 +180,6 @@ h6 {
   color: #666;
 }
 
-/* ===== FOOTER LINKS ===== */
 .footer-link {
   color: #777;
   text-decoration: none;
