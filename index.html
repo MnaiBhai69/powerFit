@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PowerFit Gym</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <!-- Our Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <nav class="navbar navbar-expand-lg sticky-top bg-dark">
+    <div class="container">
+
+      <!-- Logo -->
+      <a class="navbar-brand brand-logo" href="#home">POWER<span class="text-white">FIT</span></a>
+
+      <!-- Mobile Toggle Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Nav Links -->
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link text-light" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#programs">Programs</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#contact">Contact</a></li>
+          <!-- Join Now Button -->
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+            <a href="#pricing" class="btn btn-orange">Join Now</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <!-- ==================== END NAVBAR ==================== -->
+
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero-section" id="home">
+    <div class="container text-white">
+      <h1 class="display-1 fw-bold">GET <span class="text-orange">FIT.</span><br />STAY STRONG.</h1>
+      <p class="lead text-secondary mb-4">Your journey to a healthier life starts here. Train with the best.</p>
+      <!-- Two Buttons -->
+      <a href="#programs" class="btn btn-orange me-2">Our Programs</a>
+      <a href="#contact" class="btn btn-outline-light">Free Trial</a>
+    </div>
+  </section>
+  <!-- ==================== END HERO ==================== -->
+
+
+  <!-- ==================== ABOUT SECTION ==================== -->
+  <section id="about" class="py-5 bg-white">
+    <div class="container">
+      <div class="row align-items-center g-5">
+
+        <!-- Left: Image -->
+        <div class="col-lg-6">
+          <img
+            src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=700&q=80"
+            alt="Gym Interior"
+            class="img-fluid rounded" />
+        </div>
+
+        <!-- Right: Text -->
+        <div class="col-lg-6">
+          <p class="section-label">Who We Are</p>
+          <h2 class="section-title">About PowerFit Gym</h2>
+          <div class="orange-line mb-3"></div>
+          <p class="text-secondary">
+            PowerFit Gym is a modern fitness center for everyone — from beginners to professional athletes.
+            We offer top-quality equipment and expert trainers in a clean, motivating environment.
+          </p>
+
+          <!-- Bullet Points -->
+          <div class="d-flex gap-3 mb-2">
+            <i class="bi bi-check-circle-fill text-orange fs-5"></i>
+            <p class="mb-0 text-secondary">State-of-the-art equipment for all fitness levels.</p>
+          </div>
+          <div class="d-flex gap-3 mb-2">
+            <i class="bi bi-check-circle-fill text-orange fs-5"></i>
+            <p class="mb-0 text-secondary">Certified trainers with personal attention.</p>
+          </div>
+          <div class="d-flex gap-3 mb-2">
+            <i class="bi bi-check-circle-fill text-orange fs-5"></i>
+            <p class="mb-0 text-secondary">Group classes, cardio, strength training and more.</p>
+          </div>
+          <div class="d-flex gap-3 mb-4">
+            <i class="bi bi-check-circle-fill text-orange fs-5"></i>
+            <p class="mb-0 text-secondary">Open 7 days a week, early morning to late night.</p>
+          </div>
+
+          <a href="#programs" class="btn btn-orange">See Programs</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ==================== END ABOUT ==================== -->
+
+
+  <!-- ==================== PROGRAMS SECTION ==================== -->
+  <section id="programs" class="py-5 bg-light">
+    <div class="container">
+
+      <!-- Section Heading -->
+      <div class="text-center mb-5">
+        <p class="section-label">What We Offer</p>
+        <h2 class="section-title">Our Programs</h2>
+        <div class="orange-line mx-auto"></div>
+      </div>
+
+      <!-- Program Cards — 3 per row on desktop, 2 on tablet -->
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-4">
+          <div class="program-card">
+            <i class="bi bi-lightning-charge-fill"></i>
+            <h5>Strength Training</h5>
+            <p>Build muscle using free weights, barbells, and machines with trainer guidance.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="program-card">
+            <i class="bi bi-heart-pulse-fill"></i>
+            <h5>Cardio Fitness</h5>
+            <p>Burn calories and improve heart health on treadmills, cycles, and rowers.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="program-card">
+            <i class="bi bi-person-arms-up"></i>
+            <h5>Yoga &amp; Stretching</h5>
+            <p>Improve flexibility and reduce stress with beginner-friendly yoga classes.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="program-card">
+            <i class="bi bi-fire"></i>
+            <h5>HIIT Classes</h5>
+            <p>High-intensity interval training to torch fat and boost metabolism in 45 minutes.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="program-card">
+            <i class="bi bi-trophy-fill"></i>
+            <h5>Boxing</h5>
+            <p>Learn real boxing techniques and get a full-body workout at the same time.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="program-card">
+            <i class="bi bi-egg-fried"></i>
+            <h5>Nutrition Guide</h5>
+            <p>Get a personalized diet plan from our nutrition experts to reach your goals.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ==================== END PROGRAMS ==================== -->
+
+
+  <!-- ==================== PRICING SECTION ==================== -->
+  <section id="pricing" class="py-5 bg-light">
+    <div class="container">
+
+      <!-- Section Heading -->
+      <div class="text-center mb-5">
+        <p class="section-label">Membership</p>
+        <h2 class="section-title">Pricing Plans</h2>
+        <div class="orange-line mx-auto"></div>
+      </div>
+
+      <!-- Three Pricing Cards -->
+      <div class="row g-4 justify-content-center">
+
+        <!-- Basic Plan -->
+        <div class="col-md-6 col-lg-4">
+          <div class="price-card">
+            <h5 class="plan-name">Basic</h5>
+            <div class="plan-price"><sup>Rs</sup> 2,500</div>
+            <p class="text-muted small">per month</p>
+            <ul class="plan-features">
+              <li><i class="bi bi-check2 text-orange"></i> Gym Access (Morning)</li>
+              <li><i class="bi bi-check2 text-orange"></i> 2 Group Classes / Week</li>
+              <li><i class="bi bi-check2 text-orange"></i> Locker Room</li>
+              <li class="text-muted"><i class="bi bi-x"></i> Personal Trainer</li>
+              <li class="text-muted"><i class="bi bi-x"></i> Nutrition Plan</li>
+            </ul>
+            <a href="#contact" class="btn btn-orange w-100">Get Started</a>
+          </div>
+        </div>
+
+        <!-- Pro Plan (Popular) -->
+        <div class="col-md-6 col-lg-4">
+          <div class="price-card popular-card">
+            <span class="popular-badge">MOST POPULAR</span>
+            <h5 class="plan-name">Pro</h5>
+            <div class="plan-price"><sup>Rs</sup> 5,000</div>
+            <p class="text-muted small">per month</p>
+            <ul class="plan-features">
+              <li><i class="bi bi-check2 text-orange"></i> Full Day Gym Access</li>
+              <li><i class="bi bi-check2 text-orange"></i> Unlimited Group Classes</li>
+              <li><i class="bi bi-check2 text-orange"></i> Locker Room</li>
+              <li><i class="bi bi-check2 text-orange"></i> 4 PT Sessions / Month</li>
+              <li class="text-muted"><i class="bi bi-x"></i> Nutrition Plan</li>
+            </ul>
+            <a href="#contact" class="btn btn-orange w-100">Get Started</a>
+          </div>
+        </div>
+
+        <!-- Elite Plan -->
+        <div class="col-md-6 col-lg-4">
+          <div class="price-card">
+            <h5 class="plan-name">Elite</h5>
+            <div class="plan-price"><sup>Rs</sup> 8,500</div>
+            <p class="text-muted small">per month</p>
+            <ul class="plan-features">
+              <li><i class="bi bi-check2 text-orange"></i> Full Day Gym Access</li>
+              <li><i class="bi bi-check2 text-orange"></i> Unlimited Group Classes</li>
+              <li><i class="bi bi-check2 text-orange"></i> Locker + Sauna</li>
+              <li><i class="bi bi-check2 text-orange"></i> Unlimited PT Sessions</li>
+              <li><i class="bi bi-check2 text-orange"></i> Custom Nutrition Plan</li>
+            </ul>
+            <a href="#contact" class="btn btn-orange w-100">Get Started</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ==================== END PRICING ==================== -->
+
+
+  <!-- ==================== CONTACT SECTION ==================== -->
+  <section id="contact" class="py-5 bg-dark text-white">
+    <div class="container">
+
+      <!-- Section Heading -->
+      <div class="text-center mb-5">
+        <p class="section-label">Reach Us</p>
+        <h2 class="section-title text-white">Contact Us</h2>
+        <div class="orange-line mx-auto"></div>
+      </div>
+
+      <div class="row g-5">
+
+        <!-- Left: Contact Info -->
+        <div class="col-lg-5">
+
+          <!-- Each info item uses Bootstrap flex -->
+          <div class="d-flex gap-3 mb-4">
+            <i class="bi bi-geo-alt-fill text-orange fs-4"></i>
+            <div>
+              <strong>Address</strong>
+              <p class="text-secondary mb-0">Gulberg III, Faisalabad, Punjab, Pakistan</p>
+            </div>
+          </div>
+
+          <div class="d-flex gap-3 mb-4">
+            <i class="bi bi-telephone-fill text-orange fs-4"></i>
+            <div>
+              <strong>Phone</strong>
+              <p class="text-secondary mb-0">+92 300 1234567</p>
+            </div>
+          </div>
+
+          <div class="d-flex gap-3 mb-4">
+            <i class="bi bi-envelope-fill text-orange fs-4"></i>
+            <div>
+              <strong>Email</strong>
+              <p class="text-secondary mb-0">info@powerfit.pk</p>
+            </div>
+          </div>
+
+          <div class="d-flex gap-3 mb-4">
+            <i class="bi bi-clock-fill text-orange fs-4"></i>
+            <div>
+              <strong>Hours</strong>
+              <p class="text-secondary mb-0">Mon – Sat: 5:00 AM – 10:00 PM<br />Sunday: 7:00 AM – 6:00 PM</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div class="col-lg-7">
+          <form>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <input type="text" class="form-control dark-input" placeholder="Your Name" required />
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control dark-input" placeholder="Your Email" required />
+              </div>
+              <div class="col-12">
+                <input type="text" class="form-control dark-input" placeholder="Subject" />
+              </div>
+              <div class="col-12">
+                <textarea class="form-control dark-input" rows="5" placeholder="Your Message"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-orange">Send Message &nbsp;<i class="bi bi-send"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ==================== END CONTACT ==================== -->
+
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="bg-black text-secondary py-5">
+    <div class="container">
+      <div class="row g-4">
+
+        <!-- Brand & Description -->
+        <div class="col-lg-4">
+          <h4 class="brand-logo">POWER<span class="text-white">FIT</span></h4>
+          <p class="small mt-2">Your premier fitness center in Faisalabad. We help you reach your health and fitness goals every day.</p>
+          <!-- Social Icons -->
+          <div class="mt-3">
+            <a href="#" class="text-secondary me-3 fs-5"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-secondary me-3 fs-5"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-secondary me-3 fs-5"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="text-secondary fs-5"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-sm-6 col-lg-2">
+          <h6 class="text-white mb-3">Quick Links</h6>
+          <ul class="list-unstyled small">
+            <li class="mb-2"><a href="#about" class="footer-link">About Us</a></li>
+            <li class="mb-2"><a href="#programs" class="footer-link">Programs</a></li>
+            <li class="mb-2"><a href="#pricing" class="footer-link">Pricing</a></li>
+            <li class="mb-2"><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-lg-4">
+          <h6 class="text-white mb-3">Contact Info</h6>
+          <p class="small lh-lg">
+            <i class="bi bi-geo-alt text-orange"></i> Gulberg III, Faisalabad<br />
+            <i class="bi bi-telephone text-orange"></i> +92 300 1234567<br />
+            <i class="bi bi-envelope text-orange"></i> info@powerfit.pk<br />
+            <i class="bi bi-clock text-orange"></i> Mon–Sat: 5am – 10pm
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="border-top border-secondary mt-4 pt-3 text-center small">
+        <p class="mb-0">&copy; 2026 PowerFit Gym — All Rights Reserved | Faisalabad, Pakistan</p>
+      </div>
+
+    </div>
+  </footer>
+  <!-- ==================== END FOOTER ==================== -->
+
+
+  <!-- Bootstrap JS (needed for navbar toggle on mobile) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
